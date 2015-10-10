@@ -1,0 +1,20 @@
+<div class="form_item_block">
+    <label>AWS Access Key:<span class="asterisk">*</span></label>
+    <input type="text" ng-model="aws_access_key" ng-required="true"/>
+    <span class="form_error" ng-show="GOINPUTNAME[aws_access_key].$error.server">{{ GOINPUTNAME[aws_access_key].$error.server }}</span>
+</div>
+<div class="form_item_block">
+    <label>AWS Secret Key:<span class="asterisk">*</span></label>
+    <input type="text" ng-model="aws_secret_key" ng-required="true"/>
+    <span class="form_error" ng-show="GOINPUTNAME[aws_secret_key].$error.server">{{ GOINPUTNAME[aws_secret_key].$error.server }}</span>
+</div>
+<div class="form_item_block">
+    <label>AWS Region Name:<span class="asterisk">*</span></label>
+    <input type="text" ng-model="aws_region_name" ng-required="true"/>
+    <span class="form_error" ng-show="GOINPUTNAME[aws_region_name].$error.server">{{ GOINPUTNAME[aws_region_name].$error.server }}</span>
+</div>
+<div class="form_item_block">
+    <label>AWS Topic ARN:<span class="asterisk">*</span></label>
+    <input type="text" ng-model="aws_topic_arn" ng-required="true"/>
+    <span class="form_error" ng-show="GOINPUTNAME[aws_topic_arn].$error.server">{{ GOINPUTNAME[aws_topic_arn].$error.server }}</span>
+</div>
